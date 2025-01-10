@@ -1,0 +1,9 @@
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/uninstall.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/test_pkg_uninstall.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/test.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/edit_cache.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/rebuild_cache.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/list_install_components.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/install.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/install/local.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/test_pkg/CMakeFiles/install/strip.dir

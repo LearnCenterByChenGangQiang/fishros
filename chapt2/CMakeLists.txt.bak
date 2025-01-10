@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.8)
+project(cpp_node)
+add_executable(${PROJECT_NAME} ros2_cpp_node.cpp)
+
+find_package(rclcpp REQUIRED)
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${rclcpp_INCLUDE_DIRS}) // Add include(s) to the target
+target_link_libraries(${PROJECT_NAME} ${rclcpp_LIBRARIES}) // Link the target with the library
+ 

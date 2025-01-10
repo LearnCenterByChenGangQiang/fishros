@@ -1,0 +1,3 @@
+/home/parallels/dev/ros2/fishros/chapt1/build/CMakeFiles/HelloWorld.dir
+/home/parallels/dev/ros2/fishros/chapt1/build/CMakeFiles/edit_cache.dir
+/home/parallels/dev/ros2/fishros/chapt1/build/CMakeFiles/rebuild_cache.dir
