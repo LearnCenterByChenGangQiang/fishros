@@ -1,0 +1,3 @@
+[console_scripts]
+novel_pub = demo_python_topic.novel_pub_node:main
+novel_sub = demo_python_topic.novel_sub_node:main

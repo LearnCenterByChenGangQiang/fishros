@@ -1,0 +1,46 @@
+[0.007s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.143s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.161s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.227s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.358s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.358s] -- Configured cppcheck include dirs: 
+[0.359s] -- Configured cppcheck exclude dirs and/or files: 
+[0.359s] -- Added test 'lint_cmake' to check CMake code style
+[0.361s] -- Added test 'uncrustify' to check C / C++ code style
+[0.361s] -- Configured uncrustify additional arguments: 
+[0.361s] -- Added test 'xmllint' to check XML markup files
+[0.363s] -- Configuring done (0.3s)
+[0.372s] -- Generating done (0.0s)
+[0.376s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.403s] [ 25%] [32m[1mLinking CXX executable person_node[0m
+[0.408s] [ 75%] Built target demo_cpp_pkg
+[0.460s] [100%] Built target person_node
+[0.465s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.470s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.473s] -- Install configuration: ""
+[0.473s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/demo_cpp_pkg
+[0.474s] -- Installing: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.474s] -- Set non-toolchain portion of runtime path of "/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[0.474s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.475s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.475s] -- Installing: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.477s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.477s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.477s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.477s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.477s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg

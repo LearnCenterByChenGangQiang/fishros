@@ -1,0 +1,33 @@
+[0.288s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/src/demo_python_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build install --record /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.382s] running egg_info
+[0.382s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[0.388s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.388s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.388s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.388s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.388s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.400s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.400s] adding license file 'LICENSE'
+[0.400s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.400s] running build
+[0.400s] running build_py
+[0.400s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build
+[0.400s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build/lib
+[0.400s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.400s] copying demo_python_topic/__init__.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.400s] running install
+[0.403s] running install_lib
+[0.409s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic
+[0.409s] copying /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic
+[0.409s] byte-compiling /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic/__init__.py to __init__.cpython-312.pyc
+[0.409s] running install_data
+[0.409s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/share/ament_index
+[0.410s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[0.410s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.410s] copying resource/demo_python_topic -> /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.410s] copying package.xml -> /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/share/demo_python_topic
+[0.410s] running install_egg_info
+[0.418s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic-0.0.0-py3.12.egg-info
+[0.418s] running install_scripts
+[0.464s] writing list of installed files to '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/install.log'
+[0.476s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/src/demo_python_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/build install --record /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

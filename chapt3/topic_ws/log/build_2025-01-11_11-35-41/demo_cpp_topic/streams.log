@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[2.387s] [ 50%] [32m[1mLinking CXX executable turtle_circle[0m
+[2.498s] [ 50%] Built target turtle_circle
+[2.505s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[5.846s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[6.029s] [100%] Built target turtle_control
+[6.035s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[6.040s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic
+[6.043s] -- Install configuration: ""
+[6.044s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[6.044s] -- Set non-toolchain portion of runtime path of "/home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[6.044s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[6.047s] -- Set non-toolchain portion of runtime path of "/home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[6.047s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[6.047s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[6.048s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[6.048s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[6.049s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[6.049s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[6.049s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt3/topic_ws/build/demo_cpp_topic

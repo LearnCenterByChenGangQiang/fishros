@@ -1,6 +1,7 @@
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/uninstall.dir
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall.dir
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg.dir
+/home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/person_node.dir
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/parallels/dev/ros2/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

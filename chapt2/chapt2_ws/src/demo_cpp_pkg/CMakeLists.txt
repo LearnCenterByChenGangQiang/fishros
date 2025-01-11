@@ -13,15 +13,17 @@ find_package(rclcpp REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(${PROJECT_NAME} src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp)
 
 #target_include_directories(${PROJECT_NAME} PUBLIC ${rclcpp_INCLUDE_DIRS}) // Add include(s) to the target
 #target_link_libraries(${PROJECT_NAME} ${rclcpp_LIBRARIES}) // Link the target with the library
 
 # = target_include_directories + target_link_libraries
 ament_target_dependencies(${PROJECT_NAME} rclcpp) 
+ament_target_dependencies(person_node rclcpp) 
 
 install(TARGETS
-  ${PROJECT_NAME}
+  ${PROJECT_NAME} person_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
