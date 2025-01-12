@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e81b7d2051bc2c0737b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "status_display",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_qt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_qt-7deddd2e439265575809.json",
+					"name" : "hello_qt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_qt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_qt_autogen-9cb9e314271dce7266d5.json",
+					"name" : "hello_qt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_qt_autogen_timestamp_deps-6f694466dc7bbf5c241e.json",
+					"name" : "hello_qt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_display_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_display_uninstall-32484a66946536b7294f.json",
+					"name" : "status_display_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sys_status_display::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sys_status_display-ccda7c7581a28f142e84.json",
+					"name" : "sys_status_display",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sys_status_display_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sys_status_display_autogen-dbb8dd0e373cabb64e90.json",
+					"name" : "sys_status_display_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sys_status_display_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sys_status_display_autogen_timestamp_deps-df88660e0e06915500a2.json",
+					"name" : "sys_status_display_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-42bb28f0f4d98e3a53be.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display",
+		"source" : "/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

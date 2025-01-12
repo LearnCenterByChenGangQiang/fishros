@@ -1,0 +1,26 @@
+[0.005s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.024s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.197s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.211s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.252s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.253s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.308s] -- Found status_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.319s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.319s]   find_package called with invalid argument "Qt6"
+[0.319s] 
+[0.319s] [0m
+[0.319s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.367s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.367s] -- Configured cppcheck include dirs: 
+[0.367s] -- Configured cppcheck exclude dirs and/or files: 
+[0.367s] -- Added test 'lint_cmake' to check CMake code style
+[0.367s] -- Added test 'uncrustify' to check C / C++ code style
+[0.367s] -- Configured uncrustify additional arguments: 
+[0.368s] -- Added test 'xmllint' to check XML markup files
+[0.368s] -- Configuring incomplete, errors occurred!
+[0.373s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.375s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2

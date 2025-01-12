@@ -1,0 +1,38 @@
+[0.402s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.507s] running egg_info
+[0.507s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.512s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.512s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.513s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.513s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.513s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.527s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.527s] adding license file 'LICENSE'
+[0.527s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.527s] running build
+[0.527s] running build_py
+[0.528s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build
+[0.528s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib
+[0.528s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.528s] copying status_publisher/sys_status_pub.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.528s] copying status_publisher/__init__.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.528s] running install
+[0.532s] running install_lib
+[0.540s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.540s] copying /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.540s] copying /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.540s] byte-compiling /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[0.540s] byte-compiling /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/__init__.py to __init__.cpython-312.pyc
+[0.540s] running install_data
+[0.540s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index
+[0.540s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[0.540s] creating /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.540s] copying resource/status_publisher -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.540s] copying package.xml -> /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/share/status_publisher
+[0.540s] running install_egg_info
+[0.547s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[0.547s] running install_scripts
+[0.594s] Installing sys_status_pub script to /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[0.595s] writing list of installed files to '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log'
+[0.607s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

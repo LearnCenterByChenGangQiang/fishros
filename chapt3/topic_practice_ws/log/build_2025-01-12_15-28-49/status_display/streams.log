@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.157s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.208s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.511s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.545s] -- Found status_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.561s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.632s] -- Configured cppcheck include dirs: 
+[0.632s] -- Configured cppcheck exclude dirs and/or files: 
+[0.632s] -- Added test 'lint_cmake' to check CMake code style
+[0.633s] -- Added test 'uncrustify' to check C / C++ code style
+[0.633s] -- Configured uncrustify additional arguments: 
+[0.634s] -- Added test 'xmllint' to check XML markup files
+[0.636s] -- Configuring done (0.6s)
+[0.667s] -- Generating done (0.0s)
+[0.672s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display
+[0.709s] [ 25%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[0.718s] [ 75%] Built target hello_qt
+[18.003s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[18.734s] [100%] Built target sys_status_display
+[18.763s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[18.782s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display
+[18.787s] -- Install configuration: ""
+[18.788s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[18.788s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[18.790s] -- Set non-toolchain portion of runtime path of "/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[18.790s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[18.790s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[18.791s] -- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[18.791s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[18.798s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display

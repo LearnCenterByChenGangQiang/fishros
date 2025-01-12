@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (-) JobUnselected: {'identifier': 'status_interfaces'}
+[0.000552] (-) JobUnselected: {'identifier': 'status_publisher'}
+[0.000561] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict({'status_interfaces': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces'})}
+[0.000573] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.007410] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.008053] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[0.008066] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display', '--', '-j2', '-l2'], 'cwd': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'parallels', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/parallels', 'CHROME_DESKTOP': 'cursor-url-handler.desktop', 'OLDPWD': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'TERM_PROGRAM_VERSION': '0.44.0', 'ZSH': '/home/parallels/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/resources/app/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'MANAGERPID': '1747', 'VSCODE_GIT_ASKPASS_NODE': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/cursor', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'IM_CONFIG_CHECK_ENV': '1', 'SYSTEMD_EXEC_PID': '13110', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9f0ac0f2edaccb6e9bb209c767837610', 'DBUS_STARTER_BUS_TYPE': 'session', 'P9K_TTY': 'old', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13928', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'parallels', 'JOURNAL_STREAM': '8:73164', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/parallels', 'USERNAME': 'parallels', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-linux-2404:@/tmp/.ICE-unix/13110,unix/ubuntu-linux-2404:/tmp/.ICE-unix/13110', 'INVOCATION_ID': '87243b812a21451f81d4563f321a07f4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'Unity', 'LANG': 'en_US.UTF-8', 'VSCODE_INJECTION': '1', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RQPD02', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d15407399a.sock', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'AMENT_PREFIX_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '3065f40e-4638-4dd1-b2cb-4f02a5bf19d1', 'PWD': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9f0ac0f2edaccb6e9bb209c767837610', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ZDOTDIR': '/home/parallels', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.046963] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099842] (-) TimerEvent: {}
+[0.172511] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.193489] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.198602] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.199956] (-) TimerEvent: {}
+[0.206741] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.214818] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.251512] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.252548] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.287536] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300069] (-) TimerEvent: {}
+[0.321479] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[0.338046] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.389938] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.390044] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src\n'}
+[0.390072] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.390368] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.391180] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.391371] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.391578] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.392228] (status_display) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[0.400175] (-) TimerEvent: {}
+[0.417770] (status_display) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.420334] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display\n'}
+[0.439427] (status_display) StdoutLine: {'line': b'[  0%] Built target hello_qt_autogen_timestamp_deps\n'}
+[0.439536] (status_display) StdoutLine: {'line': b'[  0%] Built target sys_status_display_autogen_timestamp_deps\n'}
+[0.450435] (status_display) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target sys_status_display\x1b[0m\n'}
+[0.453260] (status_display) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target hello_qt\x1b[0m\n'}
+[0.468375] (status_display) StdoutLine: {'line': b'[ 20%] Built target hello_qt_autogen\n'}
+[0.484953] (status_display) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/hello_qt_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.500278] (-) TimerEvent: {}
+[0.503394] (status_display) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o\x1b[0m\n'}
+[0.600394] (-) TimerEvent: {}
+[0.703128] (-) TimerEvent: {}
+[0.804076] (-) TimerEvent: {}
+[0.856268] (status_display) StdoutLine: {'line': b'[ 40%] Built target sys_status_display_autogen\n'}
+[0.887243] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sys_status_display.dir/sys_status_display_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.905792] (-) TimerEvent: {}
+[1.006042] (-) TimerEvent: {}
+[1.106240] (-) TimerEvent: {}
+[1.206448] (-) TimerEvent: {}
+[1.252011] (status_display) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable hello_qt\x1b[0m\n'}
+[1.306543] (-) TimerEvent: {}
+[1.406735] (-) TimerEvent: {}
+[1.445512] (status_display) StdoutLine: {'line': b'[ 70%] Built target hello_qt\n'}
+[1.453794] (status_display) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o\x1b[0m\n'}
+[1.507731] (-) TimerEvent: {}
+[1.607950] (-) TimerEvent: {}
+[1.708200] (-) TimerEvent: {}
+[1.808606] (-) TimerEvent: {}
+[1.908880] (-) TimerEvent: {}
+[2.010737] (-) TimerEvent: {}
+[2.110958] (-) TimerEvent: {}
+[2.211212] (-) TimerEvent: {}
+[2.314681] (-) TimerEvent: {}
+[2.414929] (-) TimerEvent: {}
+[2.515190] (-) TimerEvent: {}
+[2.616814] (-) TimerEvent: {}
+[2.717026] (-) TimerEvent: {}
+[2.818497] (-) TimerEvent: {}
+[2.918705] (-) TimerEvent: {}
+[3.018933] (-) TimerEvent: {}
+[3.119911] (-) TimerEvent: {}
+[3.220644] (-) TimerEvent: {}
+[3.321666] (-) TimerEvent: {}
+[3.422038] (-) TimerEvent: {}
+[3.523869] (-) TimerEvent: {}
+[3.624376] (-) TimerEvent: {}
+[3.724765] (-) TimerEvent: {}
+[3.825029] (-) TimerEvent: {}
+[3.925432] (-) TimerEvent: {}
+[4.025747] (-) TimerEvent: {}
+[4.125956] (-) TimerEvent: {}
+[4.227296] (-) TimerEvent: {}
+[4.327789] (-) TimerEvent: {}
+[4.429705] (-) TimerEvent: {}
+[4.530322] (-) TimerEvent: {}
+[4.632133] (-) TimerEvent: {}
+[4.732734] (-) TimerEvent: {}
+[4.833216] (-) TimerEvent: {}
+[4.934198] (-) TimerEvent: {}
+[5.034560] (-) TimerEvent: {}
+[5.134777] (-) TimerEvent: {}
+[5.235751] (-) TimerEvent: {}
+[5.336796] (-) TimerEvent: {}
+[5.371975] (status_display) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable sys_status_display\x1b[0m\n'}
+[5.436891] (-) TimerEvent: {}
+[5.538735] (-) TimerEvent: {}
+[5.638954] (-) TimerEvent: {}
+[5.739215] (-) TimerEvent: {}
+[5.782862] (status_display) StdoutLine: {'line': b'[100%] Built target sys_status_display\n'}
+[5.788620] (status_display) CommandEnded: {'returncode': 0}
+[5.789246] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'install'}
+[5.793607] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display'], 'cwd': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'parallels', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/parallels', 'CHROME_DESKTOP': 'cursor-url-handler.desktop', 'OLDPWD': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'TERM_PROGRAM_VERSION': '0.44.0', 'ZSH': '/home/parallels/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/resources/app/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'MANAGERPID': '1747', 'VSCODE_GIT_ASKPASS_NODE': '/home/parallels/Desktop/cursor_0.44.0_linux_arm64/cursor', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'IM_CONFIG_CHECK_ENV': '1', 'SYSTEMD_EXEC_PID': '13110', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9f0ac0f2edaccb6e9bb209c767837610', 'DBUS_STARTER_BUS_TYPE': 'session', 'P9K_TTY': 'old', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13928', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'parallels', 'JOURNAL_STREAM': '8:73164', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/parallels', 'USERNAME': 'parallels', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-linux-2404:@/tmp/.ICE-unix/13110,unix/ubuntu-linux-2404:/tmp/.ICE-unix/13110', 'INVOCATION_ID': '87243b812a21451f81d4563f321a07f4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'Unity', 'LANG': 'en_US.UTF-8', 'VSCODE_INJECTION': '1', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RQPD02', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d15407399a.sock', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'AMENT_PREFIX_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '3065f40e-4638-4dd1-b2cb-4f02a5bf19d1', 'PWD': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9f0ac0f2edaccb6e9bb209c767837610', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ZDOTDIR': '/home/parallels', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.798021] (status_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.798574] (status_display) StdoutLine: {'line': b'-- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt\n'}
+[5.799102] (status_display) StdoutLine: {'line': b'-- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display\n'}
+[5.801080] (status_display) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""\n'}
+[5.801463] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display\n'}
+[5.801559] (status_display) StdoutLine: {'line': b'-- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display\n'}
+[5.802140] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh\n'}
+[5.802194] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv\n'}
+[5.802249] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh\n'}
+[5.802297] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv\n'}
+[5.802322] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash\n'}
+[5.802368] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh\n'}
+[5.802401] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh\n'}
+[5.802444] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv\n'}
+[5.802477] (status_display) StdoutLine: {'line': b'-- Installing: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv\n'}
+[5.802538] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display\n'}
+[5.802573] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake\n'}
+[5.802616] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake\n'}
+[5.802650] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml\n'}
+[5.803581] (status_display) CommandEnded: {'returncode': 0}
+[5.813209] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 0}
+[5.813679] (-) EventReactorShutdown: {}

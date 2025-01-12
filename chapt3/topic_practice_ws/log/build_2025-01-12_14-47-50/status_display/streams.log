@@ -1,0 +1,31 @@
+[0.004s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.027s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.215s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.216s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.278s] -- Found status_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.295s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.373s] -- Configured cppcheck include dirs: 
+[0.373s] -- Configured cppcheck exclude dirs and/or files: 
+[0.373s] -- Added test 'lint_cmake' to check CMake code style
+[0.374s] -- Added test 'uncrustify' to check C / C++ code style
+[0.374s] -- Configured uncrustify additional arguments: 
+[0.374s] -- Added test 'xmllint' to check XML markup files
+[0.375s] -- Configuring done (0.4s)
+[0.383s] -- Generating done (0.0s)
+[0.387s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display
+[0.418s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[0.886s] [01m[K/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[0.886s] [01m[K/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:8:20:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KQLabel*[m[K’ to non-scalar type ‘[01m[KQLabel[m[K’ requested
+[0.886s]     8 |     QLabel label = [01;31m[Knew QLabel()[m[K;
+[0.886s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[0.935s] gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+[0.935s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+[0.935s] gmake: *** [Makefile:146: all] Error 2
+[0.936s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2

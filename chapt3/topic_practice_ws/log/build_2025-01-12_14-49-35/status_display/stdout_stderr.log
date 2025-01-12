@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[01m[K/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:10:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetText[m[K’ in ‘[01m[Klabel[m[K’, which is of pointer type ‘[01m[KQLabel*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   10 |     label.[01;31m[KsetText[m[K(message);
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:11:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kshow[m[K’ in ‘[01m[Klabel[m[K’, which is of pointer type ‘[01m[KQLabel*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   11 |     label.[01;31m[Kshow[m[K();
+      |           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

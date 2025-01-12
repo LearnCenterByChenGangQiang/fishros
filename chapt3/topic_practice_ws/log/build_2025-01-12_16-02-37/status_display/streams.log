@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.094s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.254s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.273s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.278s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.331s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.400s] -- Found status_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.417s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.468s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.468s] -- Configured cppcheck include dirs: 
+[0.468s] -- Configured cppcheck exclude dirs and/or files: 
+[0.468s] -- Added test 'lint_cmake' to check CMake code style
+[0.469s] -- Added test 'uncrustify' to check C / C++ code style
+[0.469s] -- Configured uncrustify additional arguments: 
+[0.469s] -- Added test 'xmllint' to check XML markup files
+[0.470s] -- Configuring done (0.4s)
+[0.494s] -- Generating done (0.0s)
+[0.497s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display
+[0.517s] [  0%] Built target sys_status_display_autogen_timestamp_deps
+[0.518s] [  0%] Built target hello_qt_autogen_timestamp_deps
+[0.527s] [ 10%] [34m[1mAutomatic MOC and UIC for target sys_status_display[0m
+[0.527s] [ 20%] [34m[1mAutomatic MOC and UIC for target hello_qt[0m
+[0.558s] 
+[0.558s] AutoMoc error
+[0.558s] -------------
+[0.559s] "SRC:/src/sys_status_display.cpp"
+[0.559s] contains a "Q_OBJECT" macro, but does not include "sys_status_display.moc"!
+[0.559s] Consider to
+[0.559s]   - add #include "sys_status_display.moc"
+[0.559s]   - enable SKIP_AUTOMOC for this file
+[0.559s] 
+[0.561s] gmake[2]: *** [CMakeFiles/sys_status_display_autogen.dir/build.make:75: sys_status_display_autogen/timestamp] Error 1
+[0.561s] gmake[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/sys_status_display_autogen.dir/all] Error 2
+[0.561s] gmake[1]: *** Waiting for unfinished jobs....
+[0.565s] [ 20%] Built target hello_qt_autogen
+[0.565s] gmake: *** [Makefile:146: all] Error 2
+[0.566s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
