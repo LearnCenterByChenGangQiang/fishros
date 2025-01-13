@@ -1,0 +1,126 @@
+[0.004s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[0.018s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.121s] -- Found chapt4_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.133s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.137s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.192s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.209s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.210s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.267s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.290s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.340s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.340s] -- Configured cppcheck include dirs: 
+[0.340s] -- Configured cppcheck exclude dirs and/or files: 
+[0.340s] -- Added test 'lint_cmake' to check CMake code style
+[0.340s] -- Added test 'uncrustify' to check C / C++ code style
+[0.340s] -- Configured uncrustify additional arguments: 
+[0.341s] -- Added test 'xmllint' to check XML markup files
+[0.341s] -- Configuring done (0.3s)
+[0.349s] -- Generating done (0.0s)
+[0.352s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service
+[0.369s] [ 25%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[0.373s] [ 75%] Built target turtle_control
+[0.476s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:4:1:[m[K [01;31m[Kerror: [m[Kextended character ＃ is not valid in an identifier
+[0.476s]     4 | [01;31m[K＃[m[Kinclude <ctime>
+[0.476s]       | [01;31m[K^[m[K
+[1.240s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[K＃include[m[K’ does not name a type
+[1.240s]     4 | [01;31m[K＃include[m[K <ctime>
+[1.241s]       | [01;31m[K^~~~~~~~~[m[K
+[1.241s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ was not declared in this scope; did you mean ‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’?
+[1.241s]    12 |     rclcpp::Client<[01;31m[KPatrol[m[K>::SharedPtr client_;
+[1.241s]       |                    [01;31m[K^~~~~~[m[K
+[1.241s]       |                    [32m[Kchapt4_interfaces::srv::Patrol[m[K
+[1.241s] In file included from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp:7[m[K,
+[1.241s]                  from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:2[m[K:
+[1.241s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp:417:8:[m[K [01;36m[Knote: [m[K‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’ declared here
+[1.241s]   417 | struct [01;36m[KPatrol[m[K
+[1.241s]       |        [01;36m[K^~~~~~[m[K
+[1.241s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.241s]    12 |     rclcpp::Client<Patrol[01;31m[K>[m[K::SharedPtr client_;
+[1.241s]       |                          [01;31m[K^[m[K
+[1.241s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.241s]    12 |     rclcpp::Client<Patrol>::[01;31m[KSharedPtr[m[K client_;
+[1.241s]       |                             [01;31m[K^~~~~~~~~[m[K
+[1.241s]       |                                      [32m[K;[m[K
+[1.243s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+[1.243s]    12 |     rclcpp::Client<Patrol>::SharedPtr [01;31m[Kclient_[m[K;
+[1.243s]       |                                       [01;31m[K^~~~~~~[m[K
+[1.247s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In constructor ‘[01m[KPatrolClient::[01;32m[KPatrolClient[m[K(const std::string&)[m[K’:
+[1.247s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.247s]    20 |         [01;31m[Kclient_[m[K = this->create_client<Patrol>("patrol");
+[1.247s]       |         [01;31m[K^~~~~~~[m[K
+[1.247s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ was not declared in this scope; did you mean ‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’?
+[1.247s]    20 |         client_ = this->create_client<[01;31m[KPatrol[m[K>("patrol");
+[1.247s]       |                                       [01;31m[K^~~~~~[m[K
+[1.247s]       |                                       [32m[Kchapt4_interfaces::srv::Patrol[m[K
+[1.247s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp:417:8:[m[K [01;36m[Knote: [m[K‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’ declared here
+[1.247s]   417 | struct [01;36m[KPatrol[m[K
+[1.247s]       |        [01;36m[K^~~~~~[m[K
+[1.247s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPatrolClient::create_client<<expression error> >(const char [7])[m[K’
+[1.247s]    20 |         client_ = [01;31m[Kthis->create_client<Patrol>("patrol")[m[K;
+[1.247s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.248s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.248s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.248s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.248s]                  from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:1[m[K:
+[1.248s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.248s]   271 |   [01;36m[Kcreate_client[m[K(
+[1.248s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.248s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.248s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.248s]   285 |   [01;36m[Kcreate_client[m[K(
+[1.248s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.248s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.248s]    20 |         client_ = [01;31m[Kthis->create_client<Patrol>("patrol")[m[K;
+[1.248s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:23:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PatrolClient[m[K’ has no member named ‘[01m[Kclient_[m[K’
+[1.248s]    23 |             while (!this->[01;31m[Kclient_[m[K->wait_for_service(1s))
+[1.248s]       |                           [01;31m[K^~~~~~~[m[K
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.248s]    34 |             auto request = std::[01;31m[Kmake_shared<Patrol::Request>[m[K();
+[1.248s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.248s]    34 |             auto request = [01;31m[Kstd::make_shared<Patrol::Request>()[m[K;
+[1.248s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.248s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.248s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[1.248s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[1.248s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.248s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.248s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.248s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.248s]    34 |             auto request = [01;31m[Kstd::make_shared<Patrol::Request>()[m[K;
+[1.248s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.251s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis_[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+[1.251s]    39 |             [01;31m[Kthis_[m[K>client_->async_send_request(request, [&](rclcpp::Client<Patrol>::SharedFuture result_future)-> void{
+[1.251s]       |             [01;31m[K^~~~~[m[K
+[1.252s]       |             [32m[Kthis[m[K
+[1.252s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.252s]    39 |             this_>client_->async_send_request(request, [&](rclcpp::Client<Patrol[01;31m[K>[m[K::SharedFuture result_future)-> void{
+[1.252s]       |                                                                                 [01;31m[K^[m[K
+[1.252s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kresult_future[m[K’
+[1.252s]    39 |             this_>client_->async_send_request(request, [&](rclcpp::Client<Patrol>::SharedFuture [01;31m[Kresult_future[m[K)-> void{
+[1.252s]       |                                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.256s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[1.256s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:40:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_future[m[K’ was not declared in this scope
+[1.256s]    40 |                 auto response = [01;31m[Kresult_future[m[K.get();
+[1.256s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.256s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:41:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ is not a class, namespace, or enumeration
+[1.256s]    41 |                 if(response->result == [01;31m[KPatrol[m[K::Response::SUCCESS)
+[1.256s]       |                                        [01;31m[K^~~~~~[m[K
+[1.256s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedFuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.256s]    39 |             this_>client_->async_send_request(request, [&]([01;35m[Krclcpp::Client<Patrol>::SharedFuture[m[K result_future)-> void{
+[1.256s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.258s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In constructor ‘[01m[KPatrolClient::[01;32m[KPatrolClient[m[K(const std::string&)[m[K’:
+[1.258s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:52:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[1.258s]    52 |         })[01;31m[K)[m[K;
+[1.258s]       |           [01;31m[K^[m[K
+[1.508s] gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76: CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] Error 1
+[1.508s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/patrol_client.dir/all] Error 2
+[1.508s] gmake: *** [Makefile:146: all] Error 2
+[1.509s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4

@@ -3,10 +3,12 @@
   "output_dir": "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl"
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl",
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/Patrol.idl"
   ],
   "ros_interface_files": [
-    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv"
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv",
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Patrol.srv"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl",
@@ -124,6 +126,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl",
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Patrol.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl",
@@ -219,6 +222,7 @@
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
   ],
   "type_description_tuples": [
-    "srv/FaceDetector.idl:/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json"
+    "srv/FaceDetector.idl:/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json",
+    "srv/Patrol.idl:/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json"
   ]
 }

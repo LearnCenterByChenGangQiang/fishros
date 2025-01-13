@@ -2,7 +2,8 @@
   "package_name": "chapt4_interfaces",
   "output_dir": "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces",
   "idl_tuples": [
-    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl"
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl",
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/Patrol.idl"
   ],
   "include_paths": [
     "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",

@@ -1,0 +1,38 @@
+[0.004s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[0.019s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.119s] -- Found chapt4_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.131s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.206s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.206s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.236s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.263s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.289s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.338s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.338s] -- Configured cppcheck include dirs: 
+[0.339s] -- Configured cppcheck exclude dirs and/or files: 
+[0.339s] -- Added test 'lint_cmake' to check CMake code style
+[0.339s] -- Added test 'uncrustify' to check C / C++ code style
+[0.339s] -- Configured uncrustify additional arguments: 
+[0.339s] -- Added test 'xmllint' to check XML markup files
+[0.340s] -- Configuring done (0.3s)
+[0.343s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.343s]   Cannot find source file:
+[0.343s] 
+[0.343s]     src/turtle_client.cpp
+[0.343s] 
+[0.343s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.343s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.343s]   .f95 .f03 .hip .ispc
+[0.343s] 
+[0.343s] [0m
+[0.345s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.346s]   No SOURCES given to target: turtle_client
+[0.346s] 
+[0.347s] [0m
+[0.347s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.353s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.354s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4

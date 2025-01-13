@@ -51,6 +51,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/chapt4_interfaces/chapt4_interfaces" TYPE DIRECTORY FILES "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -367,7 +371,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Patrol.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Patrol.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

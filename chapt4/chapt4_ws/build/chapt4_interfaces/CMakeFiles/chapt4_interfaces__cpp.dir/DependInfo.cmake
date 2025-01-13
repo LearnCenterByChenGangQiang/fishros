@@ -17,6 +17,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__struct.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp" "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   )
 
 

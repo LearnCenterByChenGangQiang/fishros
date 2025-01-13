@@ -1,0 +1,52 @@
+[0.003s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service
+[0.029s] -- The C compiler identification is GNU 13.3.0
+[0.057s] -- The CXX compiler identification is GNU 13.3.0
+[0.063s] -- Detecting C compiler ABI info
+[0.104s] -- Detecting C compiler ABI info - done
+[0.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.109s] -- Detecting C compile features
+[0.110s] -- Detecting C compile features - done
+[0.113s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.161s] -- Detecting CXX compile features
+[0.161s] -- Detecting CXX compile features - done
+[0.162s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.230s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.274s] -- Found chapt4_interfaces: 0.0.0 (/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.292s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.298s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.389s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.422s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.431s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.478s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.512s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.558s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.558s] -- Configured cppcheck include dirs: 
+[0.558s] -- Configured cppcheck exclude dirs and/or files: 
+[0.558s] -- Added test 'lint_cmake' to check CMake code style
+[0.558s] -- Added test 'uncrustify' to check C / C++ code style
+[0.559s] -- Configured uncrustify additional arguments: 
+[0.559s] -- Added test 'xmllint' to check XML markup files
+[0.559s] -- Configuring done (0.6s)
+[0.566s] -- Generating done (0.0s)
+[0.568s] -- Build files have been written to: /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service
+[0.572s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service
+[0.573s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[0.596s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[1.503s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In lambda function:
+[1.504s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:37:36:[m[K [01;31m[Kerror: [m[K‘[01m[KPartol[m[K’ has not been declared
+[1.504s]    37 |                 response->result = [01;31m[KPartol[m[K::Response::SUCCESS;
+[1.504s]       |                                    [01;31m[K^~~~~~[m[K
+[1.504s] [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:41:36:[m[K [01;31m[Kerror: [m[K‘[01m[KPartol[m[K’ has not been declared
+[1.504s]    41 |                 response->result = [01;31m[KPartol[m[K::Response::FAIL;
+[1.504s]       |                                    [01;31m[K^~~~~~[m[K
+[2.422s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
+[2.422s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_control.dir/all] Error 2
+[2.422s] gmake: *** [Makefile:146: all] Error 2
+[2.424s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4

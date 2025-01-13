@@ -70,8 +70,10 @@ include /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interface
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py
+/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_patrol.py
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/__init__.py
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c
+/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c
 
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chapt4_interfaces/srv/Patrol.idl
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -192,11 +195,17 @@ rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py
 
+rosidl_generator_py/chapt4_interfaces/srv/_patrol.py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chapt4_interfaces/srv/_patrol.py
+
 rosidl_generator_py/chapt4_interfaces/srv/__init__.py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chapt4_interfaces/srv/__init__.py
 
 rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c
+
+rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c
 
 chapt4_interfaces__py: /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py
 chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
@@ -205,6 +214,8 @@ chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_
 chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/__init__.py
 chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py
 chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c
+chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_patrol.py
+chapt4_interfaces__py: rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c
 chapt4_interfaces__py: /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py.dir/build.make
 .PHONY : chapt4_interfaces__py
 

@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 # 生成服务接口
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FaceDetector.srv"
+  "srv/Patrol.srv"
   DEPENDENCIES sensor_msgs
 )
 

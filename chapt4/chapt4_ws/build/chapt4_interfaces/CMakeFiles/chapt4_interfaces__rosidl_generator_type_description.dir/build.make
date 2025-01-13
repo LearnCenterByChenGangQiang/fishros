@@ -67,15 +67,21 @@ include CMakeFiles/chapt4_interfaces__rosidl_generator_type_description.dir/comp
 include CMakeFiles/chapt4_interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/chapt4_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json
+CMakeFiles/chapt4_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json
 
 rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json: rosidl_adapter/chapt4_interfaces/srv/Patrol.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json: rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json
+
 chapt4_interfaces__rosidl_generator_type_description: CMakeFiles/chapt4_interfaces__rosidl_generator_type_description
 chapt4_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json
+chapt4_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json
 chapt4_interfaces__rosidl_generator_type_description: CMakeFiles/chapt4_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : chapt4_interfaces__rosidl_generator_type_description
 

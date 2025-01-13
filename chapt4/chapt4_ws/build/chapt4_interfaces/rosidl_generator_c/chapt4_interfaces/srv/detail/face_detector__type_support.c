@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "chapt4_interfaces/srv/detail/face_detector__struct.h"
-#include "chapt4_interfaces/srv/detail/face_detector__type_support.h"
 #include "chapt4_interfaces/srv/detail/face_detector__functions.h"
+#include "chapt4_interfaces/srv/detail/face_detector__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

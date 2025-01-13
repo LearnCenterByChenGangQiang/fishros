@@ -1,0 +1,101 @@
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:4:1:[m[K [01;31m[Kerror: [m[Kextended character ＃ is not valid in an identifier
+    4 | [01;31m[K＃[m[Kinclude <ctime>
+      | [01;31m[K^[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[K＃include[m[K’ does not name a type
+    4 | [01;31m[K＃include[m[K <ctime>
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ was not declared in this scope; did you mean ‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’?
+   12 |     rclcpp::Client<[01;31m[KPatrol[m[K>::SharedPtr client_;
+      |                    [01;31m[K^~~~~~[m[K
+      |                    [32m[Kchapt4_interfaces::srv::Patrol[m[K
+In file included from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp:7[m[K,
+                 from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:2[m[K:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp:417:8:[m[K [01;36m[Knote: [m[K‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’ declared here
+  417 | struct [01;36m[KPatrol[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     rclcpp::Client<Patrol[01;31m[K>[m[K::SharedPtr client_;
+      |                          [01;31m[K^[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |     rclcpp::Client<Patrol>::[01;31m[KSharedPtr[m[K client_;
+      |                             [01;31m[K^~~~~~~~~[m[K
+      |                                      [32m[K;[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+   12 |     rclcpp::Client<Patrol>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In constructor ‘[01m[KPatrolClient::[01;32m[KPatrolClient[m[K(const std::string&)[m[K’:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   20 |         [01;31m[Kclient_[m[K = this->create_client<Patrol>("patrol");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ was not declared in this scope; did you mean ‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’?
+   20 |         client_ = this->create_client<[01;31m[KPatrol[m[K>("patrol");
+      |                                       [01;31m[K^~~~~~[m[K
+      |                                       [32m[Kchapt4_interfaces::srv::Patrol[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp:417:8:[m[K [01;36m[Knote: [m[K‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’ declared here
+  417 | struct [01;36m[KPatrol[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPatrolClient::create_client<<expression error> >(const char [7])[m[K’
+   20 |         client_ = [01;31m[Kthis->create_client<Patrol>("patrol")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  285 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |         client_ = [01;31m[Kthis->create_client<Patrol>("patrol")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:23:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PatrolClient[m[K’ has no member named ‘[01m[Kclient_[m[K’
+   23 |             while (!this->[01;31m[Kclient_[m[K->wait_for_service(1s))
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   34 |             auto request = std::[01;31m[Kmake_shared<Patrol::Request>[m[K();
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   34 |             auto request = [01;31m[Kstd::make_shared<Patrol::Request>()[m[K;
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:34:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |             auto request = [01;31m[Kstd::make_shared<Patrol::Request>()[m[K;
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis_[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+   39 |             [01;31m[Kthis_[m[K>client_->async_send_request(request, [&](rclcpp::Client<Patrol>::SharedFuture result_future)-> void{
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Kthis[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |             this_>client_->async_send_request(request, [&](rclcpp::Client<Patrol[01;31m[K>[m[K::SharedFuture result_future)-> void{
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kresult_future[m[K’
+   39 |             this_>client_->async_send_request(request, [&](rclcpp::Client<Patrol>::SharedFuture [01;31m[Kresult_future[m[K)-> void{
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:40:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_future[m[K’ was not declared in this scope
+   40 |                 auto response = [01;31m[Kresult_future[m[K.get();
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:41:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ is not a class, namespace, or enumeration
+   41 |                 if(response->result == [01;31m[KPatrol[m[K::Response::SUCCESS)
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:45:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ is not a class, namespace, or enumeration
+   45 |                 if(response->result == [01;31m[KPatrol[m[K::Response::FAIL)
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedFuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   39 |             this_>client_->async_send_request(request, [&]([01;35m[Krclcpp::Client<Patrol>::SharedFuture[m[K result_future)-> void{
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76: CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/patrol_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

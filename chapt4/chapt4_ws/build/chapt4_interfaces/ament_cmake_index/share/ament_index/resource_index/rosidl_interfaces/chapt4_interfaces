@@ -1,2 +1,4 @@
 srv/FaceDetector.idl
 srv/FaceDetector.srv
+srv/Patrol.idl
+srv/Patrol.srv

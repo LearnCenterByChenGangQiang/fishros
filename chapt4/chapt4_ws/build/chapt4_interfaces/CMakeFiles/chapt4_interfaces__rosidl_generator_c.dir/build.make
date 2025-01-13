@@ -89,6 +89,7 @@ rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/r
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: rosidl_adapter/chapt4_interfaces/srv/Patrol.idl
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_c/chapt4_interfaces/srv/face_detector.h: /opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -194,6 +195,18 @@ rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__struct.h: rosidl_
 rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.h: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.h
 
+rosidl_generator_c/chapt4_interfaces/srv/patrol.h: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/patrol.h
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.h: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.h
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__struct.h: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__struct.h
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.h: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.h
+
 rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c
 
@@ -202,6 +215,15 @@ rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c: rosi
 
 rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c
+
+rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c
 
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c.o: rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c
@@ -245,11 +267,56 @@ CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.s
 
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o -MF CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o.d -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o -c /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c > CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.i
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.s
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o -MF CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o.d -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o -c /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c > CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.i
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.s
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o -MF CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o.d -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o -c /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c > CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i
+
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c -o CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s
+
 # Object files for target chapt4_interfaces__rosidl_generator_c
 chapt4_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c.o" \
 "CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o" \
-"CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o"
+"CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o" \
+"CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o" \
+"CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o" \
+"CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o"
 
 # External object files for target chapt4_interfaces__rosidl_generator_c
 chapt4_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -257,6 +324,9 @@ chapt4_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c.o
 libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o
 libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o
+libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c.o
+libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o
+libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o
 libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/build.make
 libchapt4_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so
 libchapt4_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -266,7 +336,7 @@ libchapt4_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_inter
 libchapt4_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libchapt4_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libchapt4_interfaces__rosidl_generator_c.so: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libchapt4_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libchapt4_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -283,7 +353,14 @@ CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__struct.h
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.h
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__description.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.h
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__struct.h
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.c
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.h
 CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/face_detector.h
+CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/chapt4_interfaces/srv/patrol.h
 	cd /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/depend
 
