@@ -5,14 +5,17 @@
 #include <string>
 #include "turtlesim/msg/pose.hpp"
 #include "chapt4_interfaces/srv/patrol.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
 
 using Patrol = chapt4_interfaces::srv::Patrol;
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
 
 using namespace std::chrono_literals;
 
 class TurtleControlNode : public rclcpp::Node
 {
 private:
+    OnSetParametersCallbackHandle::SharedPtr parameter_callback_handle_;
     rclcpp::Service<Patrol>::SharedPtr patrol_service_;
     // 发布者
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
@@ -28,6 +31,40 @@ public:
     // 构造函数
     explicit TurtleControlNode(const std::string  &node_name): Node(node_name)
     {
+        // 读取参数
+        this->declare_parameter("k", 1.0);
+        this->declare_parameter("max_speed", 3.0);
+        this->get_parameter("k", k_);
+        this->get_parameter("max_speed", max_speed_);
+
+        //this->set_parameter(rclcpp::Parameter("k", 2.0));
+
+        parameter_callback_handle_ = this->add_on_set_parameters_callback(
+            [&](const std::vector<rclcpp::Parameter> &parameters) -> SetParametersResult
+            {
+                auto result = SetParametersResult();
+                result.successful = true;
+                for(const auto &parameter : parameters)
+                {
+                    RCLCPP_INFO(this->get_logger(), "更新参数: %s=%f", parameter.get_name().c_str(), parameter.as_double());
+                    if(parameter.get_name() == "k")
+                    {
+                        k_ = parameter.as_double();
+                    }
+                    else if(parameter.get_name() == "max_speed")
+                    {
+                        max_speed_ = parameter.as_double();
+                    }
+                    else
+                    {
+                        result.successful = false;
+                        result.reason = "参数名不匹配";
+                    }
+                }
+                return result;
+            }
+        );
+
         patrol_service_ = this->create_service<Patrol>("patrol", [&](const Patrol::Request::SharedPtr request, Patrol::Response::SharedPtr response)-> void 
         {
             if((0<request->target_x&&request->target_x<12.0f)&&(0<request->target_y&&request->target_y<12.0f))
