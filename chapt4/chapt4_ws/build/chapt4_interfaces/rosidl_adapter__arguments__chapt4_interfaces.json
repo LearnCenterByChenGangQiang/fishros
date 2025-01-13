@@ -1,0 +1,6 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/chapt4_interfaces:srv/FaceDetector.srv"
+  ]
+}

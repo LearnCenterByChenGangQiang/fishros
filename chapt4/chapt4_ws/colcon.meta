@@ -1,0 +1,7 @@
+{
+    "names": {
+        ".*site-packages.*": {
+            "type": "ignore"
+        }
+    }
+}
