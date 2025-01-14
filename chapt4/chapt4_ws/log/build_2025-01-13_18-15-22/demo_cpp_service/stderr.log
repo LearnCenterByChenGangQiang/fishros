@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:39 (include):
+  include called with invalid argument: DESTINATION
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

@@ -1,5 +1,6 @@
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch/demo.launch.py
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
 /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh

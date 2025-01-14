@@ -1,0 +1,36 @@
+[0.004s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description -- -j4 -l4
+[0.021s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description -- -j4 -l4
+[0.026s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description
+[0.030s] -- Install configuration: ""
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/launch
+[0.030s] -- Installing: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/launch/display_robot_launch.py
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/base.urdf.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/sensor
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/first-rebot.pdf
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/first_rebot.urdf
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/first_robot.xacro
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/urdf/first-rebot.gv
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/config
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/config/urdf_config.rviz
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/ament_index/resource_index/package_run_dependencies/fishhot_description
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/ament_index/resource_index/parent_prefix_path/fishhot_description
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/environment/ament_prefix_path.sh
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/environment/ament_prefix_path.dsv
+[0.030s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/environment/path.sh
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/environment/path.dsv
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/local_setup.bash
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/local_setup.sh
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/local_setup.zsh
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/local_setup.dsv
+[0.031s] -- Installing: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/package.dsv
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/ament_index/resource_index/packages/fishhot_description
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/cmake/fishhot_descriptionConfig.cmake
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/cmake/fishhot_descriptionConfig-version.cmake
+[0.031s] -- Up-to-date: /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/install/fishhot_description/share/fishhot_description/package.xml
+[0.032s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/dev/ros2/fishros/chapt6/chapt6_ws/build/fishhot_description

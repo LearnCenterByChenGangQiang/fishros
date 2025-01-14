@@ -1,0 +1,27 @@
+[0.327s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/src/demo_python_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.428s] running egg_info
+[0.435s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.435s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.449s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.449s] adding license file 'LICENSE'
+[0.450s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.450s] running build
+[0.450s] running build_py
+[0.450s] copying demo_python_tf/tf_listener.py -> /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf
+[0.450s] running install
+[0.453s] running install_lib
+[0.460s] copying /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf/tf_listener.py -> /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf
+[0.460s] byte-compiling /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf/tf_listener.py to tf_listener.cpython-312.pyc
+[0.460s] running install_data
+[0.460s] running install_egg_info
+[0.467s] removing '/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info' (and everything under it)
+[0.467s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info
+[0.468s] running install_scripts
+[0.520s] Installing dynamic_tf_broadcaster script to /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.520s] Installing static_tf_broadcaster script to /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.520s] Installing tf_listener script to /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.520s] writing list of installed files to '/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log'
+[0.540s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/src/demo_python_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/parallels/dev/ros2/fishros/chapt5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data

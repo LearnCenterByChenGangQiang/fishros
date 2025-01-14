@@ -1,0 +1,26 @@
+[0.331s] Invoking command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_python_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.430s] running egg_info
+[0.436s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.436s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.449s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.449s] adding license file 'LICENSE'
+[0.449s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.449s] running build
+[0.449s] running build_py
+[0.450s] running install
+[0.452s] running install_lib
+[0.459s] running install_data
+[0.459s] creating /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_servicelaunch
+[0.459s] copying launch/demo.launch.py -> /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_servicelaunch
+[0.459s] running install_egg_info
+[0.466s] removing '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info' (and everything under it)
+[0.466s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info
+[0.466s] running install_scripts
+[0.515s] Installing face_detect_client_node script to /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.515s] Installing face_detect_node script to /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.515s] Installing learn_face_detect script to /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.515s] writing list of installed files to '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[0.532s] Invoked command in '/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/src/demo_python_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/parallels/dev/ros2/fishros/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

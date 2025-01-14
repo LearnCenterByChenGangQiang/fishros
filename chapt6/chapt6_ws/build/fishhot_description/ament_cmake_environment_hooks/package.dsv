@@ -1,0 +1,4 @@
+source;share/fishhot_description/local_setup.bash
+source;share/fishhot_description/local_setup.dsv
+source;share/fishhot_description/local_setup.sh
+source;share/fishhot_description/local_setup.zsh
